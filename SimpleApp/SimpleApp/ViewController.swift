@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var nameValue : String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +23,9 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+    }
+    
+    func displayName(name:String) -> Void {
+        self.nameValue = name
     }
 }
