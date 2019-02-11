@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var nameValue : String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +26,6 @@ class ViewController: UIViewController {
     }
     
     func displayName(name:String) -> Void {
-        print("Name : \(name)")
+        self.nameValue = name
     }
 }
