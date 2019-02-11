@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
         //Need to all life cycle intializing calls
     }
     
@@ -25,4 +23,3 @@ class ViewController: UIViewController {
         super.viewDidAppear(animated)
     }
 }
-
